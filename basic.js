@@ -37,3 +37,11 @@ let second_name = "asad";
 let country = "Pakistan"
 let full_name = first_name + " " + second_name + "Country: " + country;
 console.log(full_name);
+
+//make a temperature converer in javascript
+let farnheight = 50
+let celcius = (farnheight - 32) * 5 / 9
+let kalvin = (farnheight + 459.67) * 5 / 9
+
+console.log(celcius)
+console.log(kalvin)
