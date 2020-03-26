@@ -25,3 +25,21 @@ crew.push(shepherd);
 console.log(crew);
 
 //////////////////////////////////
+
+//foreach method for arrays
+
+var myname = ["asad","ali", "awais"];
+
+myname.forEach(function (namee) {
+    namee +="Muhammad";
+    namee = namee.toUpperCase();
+    console.log(namee)
+});
+
+//other example
+words = ["cat", "in", "hat"];
+words.forEach(function(word, num, all) {
+    console.log("Word " + num + " in " + all.toString() + " is " + word);
+});
+
+/////////////////////////////////////////
